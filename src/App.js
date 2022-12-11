@@ -3,7 +3,7 @@ import CardCurrency from './components/CardCurrency';
 import LoaderSpiner from './components/Loader';
 import NavBar from './components/NavBar';
 import SearchForm from './components/SearchForm'
-import img from './img/logo.jpg'
+
 
 const apiKey = "0540ac14660cf7002d6f96fd8a4571357bbcdd65a9a0bde132287d224c01e0ab"
 

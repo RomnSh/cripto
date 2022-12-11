@@ -6,8 +6,8 @@ const CardCurrency = (props) => {
         <div className='container text-center rounded px-2 py-5 mx-4 border h-60 bg-gradient-to-r to-emerald-50 from-blue-200 '>
             <div className='items-center'>
                 <h4>{props.currens} - {'USD'}</h4>
-                <img className='inline-block mx-2 my-3 opacity-60 w-24' src= {`https://www.cryptocompare.com${props.currensImg}?width=80`}/>
-                <img className='inline-block mx-2 my-3 opacity-60 w-24' src= {`https://img2.freepng.ru/20180131/vvw/kisspng-dollar-sign-united-states-dollar-symbol-gold-dollar-png-transparent-image-5a7276c1d0fcd7.844791431517450945856.jpg`}/>
+                <img className='inline-block mx-2 my-3 opacity-60 w-24' src= {`https://www.cryptocompare.com${props.currensImg}?width=80` } alt='currensy'/>
+                <img className='inline-block mx-2 my-3 opacity-60 w-24' src= {`https://img2.freepng.ru/20180131/vvw/kisspng-dollar-sign-united-states-dollar-symbol-gold-dollar-png-transparent-image-5a7276c1d0fcd7.844791431517450945856.jpg`}alt='currensy'/>
             </div>
             <div className='my-2'>
                 <h1 className='font-bold inline-block'>-</h1>
