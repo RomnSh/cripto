@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/cripto/static/css/main.51d2754c.css",
+    "main.js": "/cripto/static/js/main.a81828e3.js",
+    "static/media/logo.png": "/cripto/static/media/logo.52b85a7b3f53bcf4b4e6.png",
+    "index.html": "/cripto/index.html",
+    "main.51d2754c.css.map": "/cripto/static/css/main.51d2754c.css.map",
+    "main.a81828e3.js.map": "/cripto/static/js/main.a81828e3.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.51d2754c.css",
+    "static/js/main.a81828e3.js"
+  ]
+}
