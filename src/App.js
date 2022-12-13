@@ -48,12 +48,12 @@ function App() {
   }
   
   return (
-    <div  className='bg-gradient-to-r from-slate-100 to-gray-300 h-full '>
+    <div  className='bg-gradient-to-r from-slate-50 to-gray-150 h-full '>
       {loading && <LoaderSpiner/>}
       {loading ||<NavBar/>}
       {loading ||<SearchForm formInputValue ={hendelSearchName}/>}
 
-      <div className="App grid xl:grid-cols-5 md:grid-cols-3 gap-2 ">
+      <div className="App grid xl:grid-cols-5 md:grid-cols-3 gap-5 ">
       { loading ||  filterCurrensys.slice(0,numberVisibleCards).map(currens => 
         <CardCurrency 
         remove={removeCard} 
@@ -67,10 +67,10 @@ function App() {
           className='
           p-2 rounded-xl 
           bg-gradient-to-r
-          from-green-300
-          to-blue-300
-          hover:from-pink-300
-          hover:to-yellow-300'
+          from-green-100
+          to-blue-100
+          hover:from-pink-100
+          hover:to-yellow-100'
           onClick={addMoreCards}
         >
           + Add 10 currensy

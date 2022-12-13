@@ -8,7 +8,7 @@ const SearchForm = ({formInputValue}) => {
         <input 
         type='text'
         placeholder='Search your currency...'
-        className='search_input mx-5 my-3 px-2 border-2 rounded bg-teal-100 text-zinc-900'
+        className='search_input mx-5 my-3 px-2 border-2 rounded bg-yellow-100 text-zinc-900'
         onChange={hendleNameChange}
         />
     </form>
