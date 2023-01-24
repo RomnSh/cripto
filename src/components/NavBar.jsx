@@ -1,5 +1,8 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 import img from '../img/logo.png'
+
+
 const NavBar = () => {
     return ( 
         
@@ -13,10 +16,10 @@ const NavBar = () => {
      
       <ul className="flex flex-row p-4 mx-5 border border-gray-100 rounded-lg bg-gray-50 ">
         <li>
-          <a href="/#"  className="block mx-5 text-gray-700 rounded"> Home</a>
+          <Link to="/"  className="block mx-5 text-gray-700 rounded"> Home</Link>
         </li>
         <li>
-          <a href="/#" className="block mx-5 text-gray-700 rounded">About</a>
+          <Link to="/about" className="block mx-5 text-gray-700 rounded">About</Link>
         </li>
        
       </ul>

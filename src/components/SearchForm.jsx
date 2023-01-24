@@ -4,7 +4,7 @@ const SearchForm = ({formInputValue}) => {
         formInputValue(event.target.value)
     }
     return ( 
-    <form className='bg-transparent'>
+    <form className='bg-transparent' onSubmit= {(evt) => evt.preventDefault()} >
         <input 
         type='text'
         placeholder='Search your currency...'
