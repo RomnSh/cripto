@@ -8,7 +8,6 @@ const About = () => {
             <br/>
             <h2>Pet-project by Roman Shkurak</h2>
         </>
-        
      );
 }
  
