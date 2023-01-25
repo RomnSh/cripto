@@ -1,14 +1,14 @@
 {
   "files": {
-    "main.css": "/criptoCards/static/css/main.f49baefb.css",
-    "main.js": "/criptoCards/static/js/main.e3603249.js",
-    "static/media/logo.png": "/criptoCards/static/media/logo.52b85a7b3f53bcf4b4e6.png",
-    "index.html": "/criptoCards/index.html",
-    "main.f49baefb.css.map": "/criptoCards/static/css/main.f49baefb.css.map",
-    "main.e3603249.js.map": "/criptoCards/static/js/main.e3603249.js.map"
+    "main.css": "/crip/static/css/main.f49baefb.css",
+    "main.js": "/crip/static/js/main.177ec021.js",
+    "static/media/logo.png": "/crip/static/media/logo.52b85a7b3f53bcf4b4e6.png",
+    "index.html": "/crip/index.html",
+    "main.f49baefb.css.map": "/crip/static/css/main.f49baefb.css.map",
+    "main.177ec021.js.map": "/crip/static/js/main.177ec021.js.map"
   },
   "entrypoints": [
     "static/css/main.f49baefb.css",
-    "static/js/main.e3603249.js"
+    "static/js/main.177ec021.js"
   ]
 }
